@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Jitendra Yadav - Portfolio Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .portfolio-card {
+            background: #fff;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 35px rgba(0,0,0,0.25);
+        }
+
+        .portfolio-card img.profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-card h1 {
+            font-size: 26px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .portfolio-card h2 {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .portfolio-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .portfolio-card a {
+            text-decoration: none;
+            color: #fff;
+            background: #0077b5;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+
+        .portfolio-card a:hover {
+            background: #005983;
+        }
+
+        .linkedin-icon {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-card">
+        <!-- Optional: Add your photo below -->
+        <!-- <img src="your-photo.jpg" alt="Muskan Jitendra Yadav" class="profile-photo"> -->
+        <h1>Muskan Jitendra Yadav</h1>
+        <h2>Software Developer</h2>
+        <p>Hello! I'm Muskan Jitendra Yadav, a software developer passionate about creating scalable and efficient web applications. I enjoy problem-solving, learning new technologies, and contributing to innovative projects.</p>
+        <p><strong>Job Description:</strong> Design, develop, test, and maintain web applications. Collaborate with cross-functional teams to deliver high-quality solutions while following best practices in software development.</p>
+        <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=muskan-yadav-184661353" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">
+            Follow me on LinkedIn
+        </a>
+    </div>
+</body>
+</html>
